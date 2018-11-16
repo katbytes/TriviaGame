@@ -124,12 +124,12 @@ var gameHTML;
 var counter = 10;
 var questionArray = [
 "<h3>Who is a reappearing Beavis and Butt-head character?</h3>", 
-"<h3>What channel did Æon Flux air on?</h3>", 
-"<h3>Which game console Sonic the Hedgehog played on?</h3>", 
-"<h3>What rock band released the 1991 album Nevermind?</h3>", 
-"<h3>Which sci-fi movie was about an Egyptian interstellar gateway?</h3>", 
-"<h3>Which sci-fi movie featured the CA Governator?</h3>", 
-"<h3>What is 'Darmok and Jalad at Tanagra' from?</h3>",
+"<h3>What channel did the animated Æon Flux series air on?</h3>", 
+"<h3>Which gaming console did Sonic the Hedgehog play on?</h3>", 
+"<h3>What rock band released the 1991 album 'Nevermind'?</h3>", 
+"<h3>Which Sci-Fi movie was about an Egyptian interstellar gateway?</h3>", 
+"<h3>Which Sci-Fi movie featured the California Governator?</h3>", 
+"<h3>What is the metaphor 'Darmok and Jalad at Tanagra' from?</h3>",
 "<h3>Who is too sexy for their cat?</h3>"];
 
 var answerArray = [
