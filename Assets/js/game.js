@@ -50,7 +50,7 @@ clickSound.play();
 resetGame();
 }); // Closes reset-button click
 
-});  //  Closes jQuery wrapper
+}); // Closes jQuery wrapper
 
 function generateLossDueToTimeOut() {
 unansweredTally++;
