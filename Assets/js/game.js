@@ -54,21 +54,21 @@ resetGame();
 
 function generateLossDueToTimeOut() {
 unansweredTally++;
-gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/nope.png'>";
+gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/nope-ha.png'>";
 $(".mainArea").html(gameHTML);
 setTimeout(wait, 3000);  //  3 Seconds
 }
 
 function generateWin() {
 correctTally++;
-gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Correct! The answer is: " + correctAnswers[questionCounter] + "</p>" + imageArray[questionCounter];
+gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'><h3>Correct! The answer is: " + correctAnswers[questionCounter] + "</h3></p>" + imageArray[questionCounter];
 $(".mainArea").html(gameHTML);
 setTimeout(wait, 3000);  //  3 Seconds
 }
 
 function generateLoss() {
 incorrectTally++;
-gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/nope.png'>";
+gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'><h3>Wrong! The correct answer is: " + correctAnswers[questionCounter] + "</h3></p>" + "<img class='center-block img-wrong' src='assets/images/nope-ha.png'>";
 $(".mainArea").html(gameHTML);
 setTimeout(wait, 3000); //  3 Seconds
 }
@@ -123,14 +123,14 @@ var startScreen;
 var gameHTML;
 var counter = 10;
 var questionArray = [
-"Who's a reappearing Beavis and Butt-head character?", 
-"What channel did Æon Flux air on?", 
-"Which game console Sonic the Hedgehog played on?", 
-"What rock band released the 1991 album Nevermind?", 
-"Which sci-fi movie was about an Egyptian interstellar gateway?", 
-"Which sci-fi movie featured the CA Governator?", 
-"What is 'Darmok and Jalad at Tanagra' from?",
-"Who is too sexy for their cat?"];
+"<h3>Who is a reappearing Beavis and Butt-head character?</h3>", 
+"<h3>What channel did Æon Flux air on?</h3>", 
+"<h3>Which game console Sonic the Hedgehog played on?</h3>", 
+"<h3>What rock band released the 1991 album Nevermind?</h3>", 
+"<h3>Which sci-fi movie was about an Egyptian interstellar gateway?</h3>", 
+"<h3>Which sci-fi movie featured the CA Governator?</h3>", 
+"<h3>What is 'Darmok and Jalad at Tanagra' from?</h3>",
+"<h3>Who is too sexy for their cat?</h3>"];
 
 var answerArray = [
 ["Daria Morgendorffer", "Squidward Tentacles", "Eric Theodore Cartman", "Apu Nahasapeemapetilon"], 
