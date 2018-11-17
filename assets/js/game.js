@@ -168,4 +168,7 @@ var theClock;
 var correctTally = 0;
 var incorrectTally = 0;
 var unansweredTally = 0;
-var clickSound = new Audio("sound/button-click.mp3");
+// var clickSound = new Audio("assets/media/zelda-oot-treasure.mp3");
+// var clickSound = new Audio("assets/media/zelda-oot-get-heart.wav");
+var clickSound = new Audio("assets/media/zelda-oot-get-rupee.wav");
+// var clickSound = new Audio("assets/media/zelda-oot-fanfare-heart-container.wav");
