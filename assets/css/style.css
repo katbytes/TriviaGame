@@ -203,7 +203,7 @@ height: 45px;
 }
 .answer:hover {
 border:4px dotted #f00;
-height: 45px;
+height: 40px;
 }
 .reset-button {
 font-size: 1.3em;
@@ -215,4 +215,7 @@ font-size: 1.3em;
 border:4px dotted #f00;
 height: 45px;
 }
+#myVideo {
+display: none;
+    }
 }
