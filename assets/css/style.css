@@ -55,9 +55,9 @@ background: white;
 background-image: url("../images/bg-1.png");
 background-size: 50%;
 color: #1f3d86;
-border:10px double pink;
+border:10px double #4bc5dc;
 text-shadow: 1px 1px #ccc;
-box-shadow: 15px 10px #888888;
+box-shadow: 15px 10px yellow;
 }
 .main-button-container {
 margin-top: 100px;
@@ -81,6 +81,7 @@ width: 300px;
 }
 /* Start Game Div Buttons */
 .start-button {
+width: 60%;
 margin: 0 auto;
 font-family: 'Pacifico', cursive;
 font-size: 1.1em;
@@ -90,6 +91,7 @@ height: 60px;
 border-radius: 25px;
 }
 .start-button:hover {
+width: 60%;
 font-family: 'Pacifico', cursive;
 font-size: 1.1em;
 color: #1f3d86;
@@ -138,6 +140,7 @@ margin-top: 40px;
 */
 /* Reset Game Div Buttons */
 .reset-button {
+width: 60%;
 margin: 0 auto;
 font-family: 'Pacifico', cursive;
 font-size: 1.1em;
@@ -147,6 +150,7 @@ border-radius: 25px;
 height: 60px;
 }
 .reset-button:hover {
+width: 60%;
 font-family: 'Pacifico', cursive;
 font-size: 1.1em;
 color: #1f3d86;
@@ -183,9 +187,9 @@ background-image: url("../images/bg-1-inverted.png");
 background-size: 80%;
 font-size: .5em;
 margin-top: 2px;
-border:10px double #fff;
+border:10px double pink;
 text-shadow: none;
-box-shadow: 7px 5px pink 
+box-shadow: 7px 5px lightgreen;
 }
 .timer {
 padding-left: 10px;
